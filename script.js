@@ -1,7 +1,7 @@
 // --- CONFIGURAÇÕES DAS IMAGENS DE FUNDO ---
 // Você pode trocar estas URLs por quaisquer imagens que preferir!
-const imagemDia = 'https://sdmntprwestus.oaiusercontent.com/files/00000000-f69c-6230-bfd7-190f973741bc/raw?se=2025-09-29T23%3A03%3A34Z&sp=r&sv=2024-08-04&sr=b&scid=f744d41e-e9d5-5057-968a-e6f399acd948&skoid=9063adf3-a524-4acf-b70a-8731b33f2f50&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-29T18%3A28%3A14Z&ske=2025-09-30T18%3A28%3A14Z&sks=b&skv=2024-08-04&sig=pM%2BQoHDrpi/uxtaKoBqEiPWJwhAHWcv99dHizmw3nlM%3D';
-const imagemNoite = 'https://sdmntpraustraliaeast.oaiusercontent.com/files/00000000-7430-61fa-a393-c4a45a981718/raw?se=2025-09-29T22%3A59%3A52Z&sp=r&sv=2024-08-04&sr=b&scid=1f3e0cc1-7e09-5939-9881-be29c0548807&skoid=9063adf3-a524-4acf-b70a-8731b33f2f50&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-29T18%3A28%3A36Z&ske=2025-09-30T18%3A28%3A36Z&sks=b&skv=2024-08-04&sig=biGSoM7aj7mo%2BI2GiTIKajidetcHjuBeo39RD53i26s%3D';
+const imagemDia = 'https://drive.google.com/file/d/10R9sq7W5vhP3goKohJLO8baP1aNRTriv/view?usp=sharing';
+const imagemNoite = 'https://drive.google.com/file/d/11sdQuc0t0EVV5_Day90FgHmCCWrmG7kV/view?usp=sharing';
 
 // --- Seletores de Elementos do DOM ---
 const hoursMinutesElement = document.getElementById('hours-minutes');
@@ -52,4 +52,5 @@ setInterval(updateTime, 1000);
 // Atualiza o fundo de tela assim que a página carrega
 updateBackground();
 // E verifica a cada minuto se precisa trocar a imagem (não precisa ser a cada segundo)
+
 setInterval(updateBackground, 60000);
