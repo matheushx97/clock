@@ -1,7 +1,7 @@
 // --- CONFIGURAÇÕES DAS IMAGENS DE FUNDO ---
 // Você pode trocar estas URLs por quaisquer imagens que preferir!
 const imagemDia = './day.png;
-const imagemNoite = './Night.png';
+const imagemNoite = './night.png';
 
 // --- Seletores de Elementos do DOM ---
 const hoursMinutesElement = document.getElementById('hours-minutes');
@@ -54,6 +54,7 @@ updateBackground();
 // E verifica a cada minuto se precisa trocar a imagem (não precisa ser a cada segundo)
 
 setInterval(updateBackground, 60000);
+
 
 
 
